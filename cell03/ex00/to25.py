@@ -9,5 +9,5 @@ try:
 			number += 1
 	else:
 		print("Error")
-except:
+except ValueError:
 	print("Error")

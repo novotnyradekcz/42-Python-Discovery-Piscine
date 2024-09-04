@@ -7,6 +7,6 @@ while (number == None):
 		number = int(input())
 		for i in range(10):
 			print(f"{i} x {number} = {i*number}")
-	except:
+	except ValueError:
 		number = None
-		print("Not a valid number, try again, please")
+		print("Not a valid integer, try again, please")
