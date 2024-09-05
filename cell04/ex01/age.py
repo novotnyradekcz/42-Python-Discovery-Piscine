@@ -2,9 +2,8 @@
 
 age = None
 while age == None:
-	print("Please tell me your age: ", end="")
 	try:
-		age = int(input())
+		age = int(input("Please tell me your age: "))
 		if age < 0:
 			print("Not a valid age, try again, please.")
 			age = None

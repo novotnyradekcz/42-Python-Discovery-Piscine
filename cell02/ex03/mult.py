@@ -2,18 +2,16 @@
 
 first = None
 while (first == None):
-	print("Enter the first number:")
 	try:
-		first = int(input())
+		first = int(input("Enter the first number: "))
 	except:
 		first = None
 		print("Not a valid number, try again.")
 
 second = None
 while (second == None):
-	print("Enter the second number:")
 	try:
-		second = int(input())
+		second = int(input("Enter the second number: "))
 	except:
 		second = None
 		print("Not a valid number, try again.")
