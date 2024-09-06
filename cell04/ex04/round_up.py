@@ -4,10 +4,9 @@ import math
 
 number = None
 while number == None:
-	print("Give me a number: ", end="")
 	try:
-		number = float(input())
+		number = float(input("Give me a number: "))
 		print(math.ceil(number))
-	except:
+	except ValueError:
 		print("Not a valid number, try again, please.")
 		number = None
